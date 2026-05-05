@@ -10512,9 +10512,9 @@ k=A.ko(new A.nB(k,k,k,k),A.la(3),B.aZO)
 l=A.b([l,new A.e_(h,2,h),A.ie(h,A.ec(a.f,1,B.oz,A.dM(h,e?B.nT:B.ey,h,h,h,h,a0,h,h,B.aX,h,h,10,h,h,h,!0,h,h,h,h)),k,h,h,B.y0,1/0)],j)
 if(!s||p){s=A.ko(h,A.la(3),B.aZH)
 k=A.b([],j)
-if(o)k.push(A.ec(q,1,B.oz,A.dM(h,B.ey,h,h,h,h,a0,h,h,B.aX,h,h,7.1,h,h,h,!0,h,h,h,h)))
-if(o&&p)k.push(new A.e_(h,1,h))
 if(p)k.push(A.ec(r,1,B.oz,A.dM(h,B.aZF,h,h,h,h,a1,h,h,B.aX,h,h,5.9,h,h,h,!0,h,h,h,h)))
+if(o&&p)k.push(new A.e_(h,1,h))
+if(o)k.push(A.ec(q,1,B.oz,A.dM(h,B.ey,h,h,h,h,a0,h,h,B.aX,h,h,7.1,h,h,h,!0,h,h,h,h)))
 B.l.O(l,A.b([new A.e_(h,2,h),A.ie(h,A.vZ(k,B.e3),s,h,h,B.y0,1/0)],j))}if(e)B.l.O(l,A.b([new A.e_(h,1.5,h),A.ec("INACT",h,h,A.dM(h,B.nT,h,h,h,h,a0,h,h,B.aX,h,h,5.5,h,h,h,!0,h,h,h,h))],j))
 m.push(A.bbI(new A.qn(B.ZH,A.vZ(l,B.e3))))
 if(e)m.push(new A.y0(h,0,0,h,A.ie(h,A.ec("INACT",h,h,A.dM(h,B.nT,h,h,h,h,a0,h,h,B.aX,h,h,4.5,h,h,h,!0,h,h,h,h)),B.TS,h,h,B.y3,h)))
@@ -63965,7 +63965,7 @@ l=A.b([p,B.dQ,new A.aab(o,n,m,j),B.dQ,l,B.b4J,A.ag("\xc9tats",j,j,j,j,A.bu().$3$
 if(k.r)l.push(B.kq)
 else l.push(A.ZJ(new A.aRI(k,s)))
 l.push(B.uP)
-return A.oz(j,B.x9,new A.LD(new A.dE(B.dd,j,j,new A.dF(B.TJ,A.JY(A.b([q,new A.bp(B.hw,A.cc(l,B.b2,B.P,B.V),j)],r),j,j,B.aL,!1),j),j),h,j),new A.bp(B.Z7,A.ag("v2.0.12+13",j,j,j,j,A.bu().$3$color$fontSize$fontWeight(B.dj,11,B.b7),B.f0,j),j),j,j)},
+return A.oz(j,B.x9,new A.LD(new A.dE(B.dd,j,j,new A.dF(B.TJ,A.JY(A.b([q,new A.bp(B.hw,A.cc(l,B.b2,B.P,B.V),j)],r),j,j,B.aL,!1),j),j),h,j),new A.bp(B.Z7,A.ag("v2.0.13+14",j,j,j,j,A.bu().$3$color$fontSize$fontWeight(B.dj,11,B.b7),B.f0,j),j),j,j)},
 anY(){var s=null,r=A.bG(14),q=A.b([new A.bW(0,B.aD,B.R.bk(0.25),B.nQ,16)],t.V),p=t.p
 return A.cc(A.b([A.ca(s,A.c3(A.b([B.b4G,A.cX(A.bah(B.kW.cf(u.I),B.pL,70),1),A.e7(s,s,s,B.a62,s,s,new A.aRy(),s,s,s,"Deconnexion")],p),B.T,B.P,B.V,0),B.O,s,new A.bD(B.H,s,s,r,q,s,B.aj),s,s,s,B.Zx,s,s,1/0),B.b4K,B.bbg,B.cb,this.a_k()],p),B.T,B.P,B.V)},
 a_k(){var s,r,q=null,p=this.c
