@@ -64673,7 +64673,7 @@ Ch(a){return this.aNo(a)},
 aNo(a){var s=0,r=A.x(t.F),q,p,o,n,m,l,k,j,i,h,g
 var $async$Ch=A.t(function(b,c){if(b===1)return A.u(c,r)
 for(;;)switch(s){case 0:h=v.G
-if(h.BarcodeDetector==null)throw A.c(A.ad("Scan indisponible : ce navigateur ne supporte pas l'API BarcodeDetector. Utilise Chrome/Edge ou l'application Android."))
+if(!("BarcodeDetector" in h))throw A.c(A.ad("Scan indisponible : ce navigateur ne supporte pas l'API BarcodeDetector. Utilise Chrome/Edge ou l'application Android."))
 p=document.createElement("img")
 p.toString
 o=t.rE
@@ -64687,7 +64687,7 @@ case 3:m=A.ao(A.a7(["formats",A.b(["code_128","code_39","code_93","codabar","itf
 m.toString
 g=t.ef
 s=4
-return A.n(A.hp(new h._BarcodeDetector(m).detect(p),t.X),$async$Ch)
+return A.n(A.hp(new h.BarcodeDetector(m).detect(p),t.X),$async$Ch)
 case 4:k=g.a(c)
 for(h=B.l.gU(k),p=t.ln,j=null;h.t();){i=J.b2y(p.a(h.gL(0)).rawValue)
 o=i.length
